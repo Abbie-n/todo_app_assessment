@@ -1,0 +1,40 @@
+name: todo_app_assessment
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0
+  auto_route: ^10.1.0
+  collection: ^1.19.1
+  flutter_hooks: ^0.20.5
+  hooks_riverpod: ^2.3.5
+  injectable: ^2.1.1
+  get_it: ^7.2.0
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  riverpod: ^2.3.6
+  logger: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner:
+  auto_route_generator: 10.0.1
+  freezed:
+  injectable_generator:
+  json_serializable: 6.9.5
+
+flutter:
+  uses-material-design: true
