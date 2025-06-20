@@ -7,7 +7,6 @@ final AppRouter appRouter = AppRouter();
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // Initialize your services
   await serviceLocator();
 
   runApp(ProviderScope(child: const MyApp()));
